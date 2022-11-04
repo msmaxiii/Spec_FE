@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+    .bgimage{
+        background: rgb(0,36,20);
+        background: linear-gradient(180deg, rgb(36, 0, 14) 0%, rgb(216, 10, 41) 0%, rgba(255,255,255,1) 100%);
+        height: 100vh;
+        z-index: 11;
+        border-radius: 50%;
+    }
+    .home{
+        display:flex;
+        justify-content: center;
+        margin-top: 130px;
+    }
+    h1{
+        display: flex;
+      justify-content: center;
+      font-size: 64px;
+    }
+    .btn1{
+        display:flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .btn2{
+        display:flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .div.home.hover:{ 
+        border:1px solid #777;
+    }
+    .hover {
+        display: block;
+      }
+    
+      y.hover{
+        display:block
+      }
+    
+

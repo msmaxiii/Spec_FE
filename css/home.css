@@ -3,6 +3,7 @@
    --green:#27ae60;
    --black:#192a56;
    --light-color:#777;
+   --red:rgb(160, 22, 22);
    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 }
 *{
@@ -14,7 +15,7 @@
    outline: none;
    border:none;
    text-transform: capitalize;
-   /* transition: all .2s linear; */
+   transition: all .2s linear;
 }
 html{
    font-size:62.5%;
@@ -22,10 +23,6 @@ html{
    scroll-padding-top: 5.5rem;
    scroll-behavior: smooth;
 }
-  /* section{
-   padding:2rem 9%
-}  */
-
  .heading{
    text-align:center ;  
  }
@@ -48,7 +45,7 @@ header .logo{
    font-weight: bolder;
 }
 header .logo i{
-   color:var(--green);
+   color:var(--red);
 }
 header .navbar a{ 
    font-size: 1.7rem;
@@ -56,11 +53,11 @@ header .navbar a{
    padding:.5rem 1.5rem ;
    color:var(--light-color);
 }
-/* header .navbar a.active,
+header .navbar a.active,
 header .navbar a:hover{
    color: #fff;
-   background: var(--green);
-} */
+   background: var(--red);
+}
 header .icons a{
    cursor: pointer;
    margin-left: .5rem;
@@ -75,7 +72,7 @@ header .icons a{
 }
 header .icons a:hover{
    color:#fff;
-   background: var(--green);
+   background: var(--red);
 }
  /* @media(max-width:991px){
    html{
@@ -114,47 +111,41 @@ header .navbar a{
    html{
       font-size:50%;
    }  */
- 
+
  .home{
     margin-top:15px;
-    margin-bottom:10px ;
+    margin-bottom:50px ;
     display:flex;
     justify-content:center;
+    transition: all .2s linear;
+}
  }
- h3{
-    font-size: 16px;
+ .h3,h4{
+    font-size: 14px;
  }
  .btn{
-    font-size: 16px;
+    font-size: 14px;
    
  }
-.romance{
-   display:flex;
-   align-content:row;
-   justify-content: space-evenly;
-   margin-bottom: 10px;
-}
 .box-container{
    box-sizing:border-box ;
    display: flex;
    justify-content: center; 
    gap: 150px 100px; 
 }
-.kids{
-      display:flex;
-      flex-wrap:wrap;
-      align-content:row;
-      justify-content: space-evenly;
-      margin-bottom: 10px;
-   }
+
    .box-container1{
+      margin-top: 100px;
       box-sizing:border-box ;
       display: flex;
-      flex-wrap:wrap;
       justify-content: center;
-      align-content: space-between;
       gap: 150px 100px;
    }
+   .heart{
+      color:rgb(114, 14, 14);
+      font-size: 14px;
+   }
+   
   
 
 
